@@ -10,5 +10,5 @@ var withTax = salePrice + tax; //addition
 console.log(originalPrice);//prints it out to the console original price
 console.log(salePrice); //prints it out to the console without tax
 var result = "Your" + " " + "TV" + " " + "was" + " " + "originally" + " " + "$" +  originalPrice + "," + " " + "but" + " " + "after" + " " + "a" + " " + discountAmount + "%" + " " + "discount" + "," + " " + "it" + " " + "is" + " " + "now" + " " + "$" + salePrice + " " + "without" + " " + "tax" +  "." + " " + "and" + " " + "$" + withTax + " " +  "with" + " " + "tax" + ".";
-alert(result);//displays a pop up of the answer
+alert(result);//the alert statement is used to display the results of the user input
 console.log(withTax);//prints it out to the console with tax
